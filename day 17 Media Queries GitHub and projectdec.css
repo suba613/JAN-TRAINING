@@ -1,0 +1,32 @@
+/* screen size is in the range of 0-800 */
+/* @media only screen and (max-width:400px) {
+    h2{
+        color: blue;
+    }
+    
+}
+/* screen size is in the range of 0-400 */
+/* @media only screen and (max-width:800px) {
+    h2{
+        color: #ecf006e1;
+    }
+}
+
+@media screen and (max-width:800px) {
+    h2{
+        color: blue;
+        font-size: 20px;
+    }
+    p{
+        color: blueviolet;
+    }
+} */ */
+@media only screen and (min-width:800px) {
+    h2{
+        color: #ecf006e1;
+        font-size: 20px;
+    }
+    p{
+        color: aqua;
+    }
+}

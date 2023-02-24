@@ -1,0 +1,7 @@
+.positionIncss
+{
+    position: static;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+}

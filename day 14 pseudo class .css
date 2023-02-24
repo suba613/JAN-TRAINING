@@ -1,0 +1,26 @@
+b utton:hover{
+    color: azure;
+    background-color: black;
+    /* cursor: progress; */
+    cursor: pointer;
+}
+/* active state */
+button:active{
+    border: 1px solid red;
+}
+/* focus state */
+button:focus{
+    background-color: blue;
+    color: brown;
+}
+a:link{
+    color: blanchedalmond;
+}
+a:link{
+    color: yellow;
+}
+a:hover{
+    cursor: progress;
+}
+ */
+ 

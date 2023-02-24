@@ -1,0 +1,52 @@
+.parent{
+   /*  height: 1350px; */
+    background-color: pink;
+    display: flex;
+    flex-direction: center;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items:center;
+    flex-wrap: wrap; 
+}/* 
+:target=":blank"
+ */
+.child{
+    height: 100px;
+    width: 100px;
+   /*  flex: ; */
+    background-color: aqua;
+    border: 1px solid red;
+    /* margin-right: 10px; */
+    justify-content:center ;
+    }
+
+/* .child2{
+    height: 100px;
+    width: 100px; 
+    flex:2;
+    background-color:white;
+    border: 2px solid red;
+     margin-right: 10px; 
+    } */
+
+
+    /* animations */
+    button{
+        background-color: black;
+        color: azure;
+        margin: 20px;
+        padding: 10px;
+        font-size: 29px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition-delay: 250ms;
+        transition-duration:500ms ;
+        transition-property: background-color color;
+        /* liner,ease,ease-out,ease-in,ease-in-out,cubic-bezier(0.96, -0.05, 0, 0.97) */
+        transition-timing-function: cubic-bezier(0.96, -0.05, 0, 0.97);
+        transition:all cubic-bezier(0.96, -0.05, 0, 0.97)250ms 500ms;
+    }
+    button:hover{
+        background-color:aqua;
+        color: black;
+        cursor: pointer;
+    }
